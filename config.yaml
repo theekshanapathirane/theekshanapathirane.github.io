@@ -2,6 +2,7 @@ baseURL: https://theekshanapathirane.github.io
 
 languageCode: en-us
 title: "John's Blog"
+theme: "toha"
 
 # Use Hugo modules to add theme
 module:

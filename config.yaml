@@ -92,7 +92,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -107,6 +107,7 @@ params:
     # Enable & configure "Notes" features
     presets:
       enable: true
+
     notes:
       enable: false
 

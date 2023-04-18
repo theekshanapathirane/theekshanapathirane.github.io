@@ -85,13 +85,11 @@ degrees:
   institution:
     name: Richmond College
     url: "https://www.richmondcollege.lk/"
-   timeframe: 2009-2022
+  timeframe: 2009-2022
   grade: #(optional)
     scale: Ordinary Levels
     achieved: 8A'S & 1B
     outOf: 9 SUBJECTS
-    scale: Advanced Levels
-    achieved: TBA
     extracurricularActivities: #(optional)
     - Chess
     - Table Tennise

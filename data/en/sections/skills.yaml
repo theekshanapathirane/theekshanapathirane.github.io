@@ -14,7 +14,6 @@ skills:
 - name: Kubernetes
   logo: /images/sections/skills/videdit.jpg
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
 
 - name: Go Development
   logo: /images/sections/skills/java.jpg

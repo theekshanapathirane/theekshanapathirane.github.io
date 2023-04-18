@@ -13,7 +13,7 @@ section:
 skills:
 - name: JAVA 
   logo: /images/sections/skills/java.jpg
-  summary: "CKnow basic JAVA programming. Used for contest programming and problem solving."
+  summary: "Know basic JAVA programming. Used for contest programming and problem solving."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -22,8 +22,8 @@ skills:
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  url: "https://github.com/theekshanapathirane"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Video Editing & Designing
+  logo: /images/sections/skills/videdit.jpg
+  summary: "Basic-Advanced knowledge of Using Professional Tools like Primiere Pro,After Effects,Audition,Blender etc. "

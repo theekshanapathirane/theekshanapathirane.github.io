@@ -2,7 +2,7 @@
 section:
   name: My Video Presets
   id: Presets
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/presets.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 4
   showOnNavbar: true
@@ -14,7 +14,7 @@ degrees:
   icon: fa-school
   timeframe: 2005-2010
   institution:
-    name: Richmond College
+    name: Adobe After Effects
     url: "https://www.richmondcollege.lk/"
   timeframe: 2009-2022
   grade: #(optional)

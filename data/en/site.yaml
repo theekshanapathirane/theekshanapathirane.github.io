@@ -16,6 +16,6 @@ description: Personal Website of Theekshana.
 openGraph:
   title: Theekshana's First Static Site
   type: website
-  description: Portfolio and personal blog of Theekshana.
+  description: Personal Website of Theekshana.
   image: images/author/1233.jpg
   url: https://hugo-toha.github.io

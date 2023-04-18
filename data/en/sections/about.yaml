@@ -25,23 +25,23 @@ summary: 'hehe'
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "#"
+  url: "THIWANKAPATHIRANE293@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "#"
+  url: "https://github.com/theekshanapathirane"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://stackoverflow.com/users/21670186/theekshana-pathirana"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/thiwanaka-theekshana-wedeha-pathirana-467233266"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
+  url: "https://web.facebook.com/marcus.holloway.31924/"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.

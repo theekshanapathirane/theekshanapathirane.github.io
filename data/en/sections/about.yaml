@@ -25,29 +25,28 @@ summary: 'hehe'
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "THIWANKAPATHIRANE293@gmail.com"
+  url: "#"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://github.com/theekshanapathirane"
+  url: "#"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "https://stackoverflow.com/users/21670186/theekshana-pathirana"
+  url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/thiwanaka-theekshana-wedeha-pathirana-467233266"
+  url: "#"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "https://web.facebook.com/marcus.holloway.31924/"
+  url: "#"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "#"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

@@ -8,12 +8,12 @@ image: "images/author/1233.jpg"
 contactInfo:
   email: "thiwankapathirane293@gmail.com"
   phone: "+947834832987"
-  github: https://github.com/theekshanapathirane/theekshanapathirane.github.io
-  linkedin: https://www.linkedin.com/in/thiwanaka-theekshana-wedeha-pathirana-467233266/
+  github: theekshanapathirane/theekshanapathirane.github.io
+  linkedin: 
 
 # some summary about what you do
 summary:
   - I love Programming 
-  - I love Video Editing
-  - I work on open-source projects
+  - Passionate about Video Editing
+
    

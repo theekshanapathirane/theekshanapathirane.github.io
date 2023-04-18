@@ -12,7 +12,7 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: JAVA 
-  logo: /images/sections/skills/java.jpg
+  logo: /images/sections/skills/java.png
   summary: "Know basic JAVA programming. Used for contest programming and problem solving."
 
 - name: Linux
@@ -25,5 +25,5 @@ skills:
   url: "https://github.com/theekshanapathirane"
 
 - name: Video Editing & Designing
-  logo: /images/sections/skills/videdit.jpg
+  logo: /images/sections/skills/videdit.png
   summary: "Basic-Advanced knowledge of Using Professional Tools like Primiere Pro,After Effects,Audition,Blender etc. "

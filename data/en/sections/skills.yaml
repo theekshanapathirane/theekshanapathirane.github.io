@@ -11,8 +11,9 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+
 - name: Java
-  logo: /images/sections/skills/java.jpg
+  logo: /images/sections/skills/git.png
   summary: "Know basic Java programming.Used for contest programming and problem solving."
 
 - name: Git
@@ -25,8 +26,8 @@ skills:
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
   - name: Video Editing & Designing
-  logo: /images/sections/skills/videdit.jpg
-  summary: "Have Baisc-Advanced Knowledge about Professional Editing & Designing Tools Like Audition,Primiere Pro,After Effects,Blender etc"
+  logo: /images/sections/skills/git.png
+  summary: "Have Baisc-Advanced Knowledge about Professional Editing & Designing Tools Like Audition,Primiere Pro,After Effects,Blender etc."
 
 
 

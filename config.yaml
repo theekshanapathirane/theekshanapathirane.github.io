@@ -24,7 +24,7 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
+  en:
     languageName: বাংলা
     weight: 2
 

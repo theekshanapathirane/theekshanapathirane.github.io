@@ -9,11 +9,11 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-degrees:
+Topic:
 - name: Presets-Free
   icon: fa-school
   timeframe: 2005-2010
-  institution:
+  Software:
     name: Adobe After Effects
     url: "https://www.adobe.com/products/aftereffects.html"
   timeframe: Since 2021

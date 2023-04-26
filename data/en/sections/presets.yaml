@@ -13,7 +13,7 @@ degrees:
 - name: Presets(Free)
   icon: fa-school
   timeframe: 2005-2010
-  institution:
+  software:
     name: Adobe After Effects 2022
     url: "https://www.adobe.com/products/aftereffects.html"
   timeframe: Since 2021

@@ -261,7 +261,7 @@ params:
     enable: true 
     # You can provide your custom footer template using this option.
     # Put your template in "layouts/partials" folder of your repo.
-    template: footer.html
+    template: footer1.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
       enable: true
@@ -283,4 +283,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: flase

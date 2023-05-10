@@ -11,17 +11,18 @@ section:
 
 degrees:
 - name: Presets(Free)
+  url: "https://www.adobe.com/products/aftereffects.html"
   icon: fa-school
-<<<<<<< HEAD
   timeframe: 2005-2011
   institution:
     name: Adobe After Effects 2023
-=======
-  timeframe: 2005-2010
-  software:
-    name: Adobe After Effects 2022
->>>>>>> parent of 8215d584 (updated)
     url: "https://www.adobe.com/products/aftereffects.html"
-  timeframe: Since 2021
- 
     
+  timeframe: Since 2021
+  publications: 
+    - url: "https://www.adobe.com/products/aftereffects.html"
+      title: Quality Preset 1(Tap to Download)
+    - url: "https://www.adobe.com/products/aftereffects.html"
+      title: Quality Preset 2(Tap to Download)
+
+

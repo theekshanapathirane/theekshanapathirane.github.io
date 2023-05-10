@@ -2,7 +2,9 @@
 copyright: Theekshana Pathirane© 2023 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "Theekshana Pathirane © 2023 Copyright."
+disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
+You can modify or distribute the theme without requiring any permission from the theme author.
+However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Personal Website of Theekshana.
@@ -12,7 +14,7 @@ description: Personal Website of Theekshana.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Theekshana's Site
+  title: Theekshana's First Static Site
   type: website
   description: Personal Website of Theekshana.
   image: images/author/1233.png

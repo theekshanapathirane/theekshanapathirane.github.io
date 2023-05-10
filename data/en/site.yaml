@@ -14,7 +14,7 @@ description: Personal Website of Theekshana.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Theekshana's First Static Site
+  title: Theekshana Pathirane 
   type: website
   description: Personal Website of Theekshana.
   image: images/author/1233.png

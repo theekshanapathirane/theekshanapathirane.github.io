@@ -20,4 +20,10 @@ buttons:
   filter: "hobby"
 
 # your projects
-projects:
+- projects:
+   name: Project 1
+   filter: academic
+   image: https://example.com/project-1.jpg
+   link: https://example.com/project-1
+
+   

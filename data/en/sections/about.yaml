@@ -8,18 +8,22 @@ section:
   template: sections/about.html
 
 # your designation
-designation: xx
+designation: College Student
 # your company information
-company:
-  name: yy Co.
-  url: "https://www.example.com"
+# company:
+ # name:
+ # url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'hehe'
+summary: 'I am a creative and versatile individual with a passion for technology. I have a strong background in Java programming, video editing, graphic design, and web design. I am also a gamer and enjoy learning new things.
+
+I am a quick learner and I am always eager to take on new challenges. I am also a team player and I am always willing to help others.
+
+I am confident that I have the skills  necessary to be successful in any role. I am eager to learn more and to contribute to the success of your company.'
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:

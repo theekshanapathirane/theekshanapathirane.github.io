@@ -11,11 +11,18 @@ section:
 
 degrees:
 - name: Presets(Free)
+  url: "https://www.adobe.com/products/aftereffects.html"
   icon: fa-school
   timeframe: 2005-2010
-  software:
-    name: Adobe After Effects 2022
+  institution:
+    name: Adobe After Effects 2023
     url: "https://www.adobe.com/products/aftereffects.html"
-  timeframe: Since 2021
- 
     
+  timeframe: Since 2021
+  publications: 
+    - url: "https://www.adobe.com/products/aftereffects.html"
+      title: Quality Preset 1(Tap to Download)
+    - url: "https://www.adobe.com/products/aftereffects.html"
+      title: Quality Preset 2(Tap to Download)
+
+

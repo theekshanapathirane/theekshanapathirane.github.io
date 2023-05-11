@@ -54,8 +54,13 @@ resourceLinks:
 badges:
 - type: certification
   name: Artificial Intelligence and Machine Learning
+  url: "https://www.linkedin.com/learning/certificates/25f26f4938c844b1fc6702d02eca0c3c5ceb93acec11e6c4c00bc1156fada53f"
+  badge: "https://images.credly.com/size/680x680/images/ea212eab-3da2-4d04-8f96-15334d589efd/image.png"
+- type: certification
+  name: Artificial Intelligence and Machine Learning
   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+
 
 - type: soft-skill-indicator
   name: Team Work

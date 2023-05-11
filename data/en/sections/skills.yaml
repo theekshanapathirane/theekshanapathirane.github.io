@@ -10,6 +10,9 @@ section:
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
+
+background_image: /images/sections/skills/garena12.png
+
 skills:
 - name: JAVA 
   logo: /images/sections/skills/java.png

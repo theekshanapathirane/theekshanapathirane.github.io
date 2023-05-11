@@ -20,22 +20,31 @@ buttons:
 
 # your projects
 projects:
+- name: Garena Singapore:Free Fire Community
+  logo: /images/sections/projects/Garena.png
+  timeline: "April 2023 - Present"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://careers.garena.com/global/teams?category=Design"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Representing and Providing  Feedback from Users Across Sri Lanka for ff.community.sg
+  tags: ["professional", "cloud"]
+
 - name: Garena Singapore:Free Fire Community Event I
   logo: /images/sections/projects/Garena.png
   role: Animator,Editor
-  timeline: "May 2023 - Present"
+  timeline: "May 2023 - June 2023"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Providing and Representing  Feedback from Users Across Sri Lanka for ff.community.sg
-  tags: ["professional", "Video Editing", "cloud","hobby"]
+  url: "https://www.slffnews.lk/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Simple Video Project to Guide New Players In their Native Language
+  tags: ["professional", "Video Editing","hobby"]
+  
 
-- name: E-Shop Calc
+- name: E-Shop
   logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "March 2023 - Present"
   repo: https://github.com/theekshanapathirane/E-shop
   #url: ""
-  summary: Simple Calculator.
+  summary:
   tags: ["academic"]
 
 

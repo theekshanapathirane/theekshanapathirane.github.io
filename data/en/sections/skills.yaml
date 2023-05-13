@@ -20,7 +20,7 @@ section:
   background_image: images/sections/skills/garena12.png
 
 skills:
-- name: JAVA 
+- name: JAVA  
   logo: /images/sections/skills/java.png
   summary: "Knows basic JAVA programming. Used for contest programming and problem solving."
 

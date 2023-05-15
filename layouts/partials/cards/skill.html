@@ -2,6 +2,13 @@
   <a class="skill-card-link" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}>
     <div class="card">
       <div class="card-head d-flex">
+        <!DOCTYPE html>
+      
+        
+        
+        
+
+
         {{ if .logo }}
           {{ $logoImage := resources.Get .logo }}
           {{/*  svg don't support "Fit" operation   */}}

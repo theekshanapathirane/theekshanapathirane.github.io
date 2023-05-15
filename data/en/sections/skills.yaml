@@ -18,6 +18,7 @@ section:
   weight: 2
   showOnNavbar: true
   background_image: images/sections/skills/garena12.png
+background_image: "https://images.credly.com/size/680x680/images/cf8e9faa-7796-4ec8-b0a1-b1584b13c5f3/image.png"
 
 skills:
 - name: JAVA

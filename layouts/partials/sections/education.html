@@ -50,14 +50,53 @@
                                 <h6><span class="text-muted">{{ .grade.scale }}: </span><span>{{ .grade.achieved }}</span> {{ i18n "out_of"}} <span>{{ .grade.outOf }}</span></h6>
                             {{ end }}
                             {{ if .publications }}
-                                <div class="publications">
+                                <div class="publications"> <title>Cool Pop-In Animation on Scroll</title>
+                                    <style>
+                                      @keyframes popInAnimation {
+                                        0% {
+                                          transform: scale(0);
+                                          opacity: 0;
+                                        }
+                                        50% {
+                                          transform: scale(1.2);
+                                          opacity: 1;
+                                        }
+                                        100% {
+                                          transform: scale(1);
+                                          opacity: 1;
+                                        }
+                                      }
+                                  
+                                      .pop-in {
+                                        opacity: 0;
+                                      }
+                                    </style>
+                                    <script>
+                                      window.addEventListener('scroll', function() {
+                                        var element = document.querySelector('.pop-in');
+                                        var position = element.getBoundingClientRect().top;
+                                        var screenHeight = window.innerHeight;
+                                  
+                                        if (position < screenHeight) {
+                                          element.classList.add('pop-in');
+                                        } else {
+                                          element.classList.remove('pop-in');
+                                        }
+                                      });
+                                    </script>
+                                   
                                     <h6 class="text-muted">{{ i18n "publications"}}</h6>
                                     <ul>
                                         {{ range .publications }}
                                             {{ if .url }}
-                                                <li><a href="{{ .url }}" title="{{ .title }}" target="_blank" rel="noopener">{{ .title }}</a></li>
-                                            {{ else }}
-                                                <li>{{ .title }}</li>
+                                            
+                                                
+                                         <li><a href="{{ .url }}" title="{{ .title }}" target="_blank" rel="noopener">{{ .title }}</a></li>
+                                         
+                                         {{ else }}
+                                                
+                                            <li>{{ .title }}</li>
+                                                
                                             {{ end }}
                                         {{ end }}
                                     </ul>

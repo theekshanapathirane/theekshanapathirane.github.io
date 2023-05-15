@@ -19,10 +19,9 @@ degrees:
     url: "https://www.adobe.com/products/aftereffects.html"
     
   timeframe: Since 2021
-  publications: 
-    - url: "https://doc-08-b4-docs.googleusercontent.com/docs/securesc/mvh25jffpspgedkbipkq86470521cnev/lp51abhvt7mj2sjrq2jenheeemsg7p0o/1683822525000/16242474057622228496/13187236948971911321Z/1Lm-fXI1pEjSoJfhc6_nsluorIJ2fOaD0?e=download&uuid=e875b811-1ba6-497e-a92a-c41c84d5959b"
+  publications:
+    - url: "https://www.adobe.com/products/aftereffects.html"
       title: Quality Preset 1(Tap to Download)
-    - url: "https://s3.ap-south-1.amazonaws.com/blob-ap-south-1-ukyez4/sara/e9/e908/e908ed90-bc21-4013-b93a-cd4ad66073b4.bin?response-content-disposition=attachment%3B%20filename%3D%22ASTUTE-Quality2.ffx%22&response-content-type=&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4DM2EY46SOWUMUP4%2F20230515%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20230515T133745Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=12947e04e5e6dcacf0eb26998b35846dcac57a2bbd3fda6f52f873b39af834ff"
-      title: Quality Preset 2(Tap to Download)
-
+    - url: "https://www.adobe.com/products/aftereffects.html"
+      title: Quality Preset 1(Tap to Download)
 

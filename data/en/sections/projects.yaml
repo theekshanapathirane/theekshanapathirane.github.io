@@ -44,8 +44,16 @@ projects:
   timeline: "March 2023 - Present"
   repo: https://github.com/theekshanapathirane/E-shop
   #url: ""
-  summary:
+  summary: private
   tags: ["academic"]
+- name: 
+  logo: 
+  role: 
+  timeline: 
+  repo: 
+  #url: ""
+  summary:
+  tags: []
 
 
 

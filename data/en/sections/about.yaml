@@ -43,6 +43,10 @@ socialLinks:
   icon: "fab fa-facebook"
   url: "https://www.linkedin.com/in/thiwanaka-theekshana-wedeha-pathirana-467233266/"
 
+- name: Tiktok
+  icon: "fab fa-tiktok"
+  url: "https://www.tiktok.com/@astute_ff"
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:

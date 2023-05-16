@@ -25,9 +25,6 @@ skills:
   logo: /images/sections/skills/java.png
   summary: "Knows basic JAVA programming. Used for contest programming and problem solving."
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -37,3 +34,18 @@ skills:
 - name: Video Editing & Designing
   logo: /images/sections/skills/videdit.png
   summary: "Basic-Advanced knowledge of Using Professional Tools like Primiere Pro,After Effects,Audition,Blender etc. "
+
+- name: Linux
+  logo: /images/sections/skills/html.png
+  summary: "Proficient in HTML for web development, with a focus on creating clean and structured web pages for seamless user experiences."
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Procrastination
+  logo: /images/sections/skills/pro.png
+  summary: "Also a Pro at Procrastinating"
+
+
+
+

@@ -3,7 +3,7 @@ name: "Theekshana Pathirane"
 nickname: "Theekshana Here!"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: ">>"
-image: "images/author/1233.png"
+image: "images/author/authornew.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "thiwankapathirane293@gmail.com"
@@ -14,10 +14,10 @@ contactInfo:
 # some summary about what you do
 summary:
   
-  - JAVA
-  - Video Editing
-  - HTML
-  - 3D Designing
+  - Programmer
+  - Video Editor
+  - Gamer
+  - Fast Learner
 
 
    

@@ -4,88 +4,121 @@
 {{ end }}
 
 <div class="container-fluid anchor pb-5 education-section">
-  {{ if not (.section.hideTitle) }}
-    <h1 class="text-center">
-        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
-  {{ else }}
-    <h1 class="text-center" style="display: none">
-        <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
-  {{ end }}
+    {{ if not (.section.hideTitle) }}
+      <h1 class="text-center">
+          <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+    {{ else }}
+      <h1 class="text-center" style="display: none">
+          <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+    {{ end }}
+    
+    <div class="container"> 
   
-  <div class="container"> 
-
-
-    <table class="education-info-table test">
-        <tbody>
-            {{ $count := len .degrees }}
-            {{ range .degrees}}
-           
-            <tr>
-                <td class="icon">
-                    {{ if gt $count 1}} 
-                    
-                    <div class="hline"></div>
-                    {{ end }}
-                        <div class="icon-holder">
-                            <i class="fas {{ .icon }}"></i>
-                        </div>
-                    </td>
-                    <td class="line">
-                        <div></div>
-                    </td>
-                    <td class="details">
-                        <div class="degree-info card">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-8">
-                                    {{ if .institution.url }}
-                                        <h5><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h5>
-                                    {{ else }}
-                                        <h5>{{ .institution.name }}</h5>
-                                    {{ end }}
-                                </div>
-                                <div class="timeframe col-lg-2 col-md-4">{{ .timeframe }}</div>
-                            </div>
-                            <h6>{{ .name }}</h6>
-                            {{ if .grade }}
-                                <h6><span class="text-muted">{{ .grade.scale }}: </span><span>{{ .grade.achieved }}</span> {{ i18n "out_of"}} <span>{{ .grade.outOf }}</span></h6>
-                            {{ end }}
-                            {{ if .publications }}
-                                <div class="publications"> <title>Cool Pop-In Animation on Scroll</title>
-                                    <style>
-                                      @keyframes popInAnimation {
-                                        0% {
-                                          transform: scale(0);
-                                          opacity: 0;
-                                        }
-                                        50% {
-                                          transform: scale(1.2);
-                                          opacity: 1;
-                                        }
-                                        100% {
-                                          transform: scale(1);
-                                          opacity: 1;
-                                        }
-                                      }
-                                  
-                                      .pop-in {
-                                        opacity: 0;
-                                      }
-                                    </style>
-                                    <script>
-                                      window.addEventListener('scroll', function() {
-                                        var element = document.querySelector('.pop-in');
-                                        var position = element.getBoundingClientRect().top;
-                                        var screenHeight = window.innerHeight;
-                                  
-                                        if (position < screenHeight) {
-                                          element.classList.add('pop-in');
-                                        } else {
-                                          element.classList.remove('pop-in');
-                                        }
-                                      });
-                                    </script>
-                                   
-                                    <h6 class="text-muted">{{ i18n "publications"}}</h6>
+  
+      <table class="education-info-table test">
+          <tbody>
+              {{ $count := len .degrees }}
+              {{ range .degrees}}
+             
+              <tr>
+                  <td class="icon">
+                      {{ if gt $count 1}} 
+                      
+                      <div class="hline"></div>
+                      {{ end }}
+                          <div class="icon-holder">
+                              <i class="fas {{ .icon }}"></i>
+                          </div>
+                      </td>
+                      <td class="line">
+                          <div></div>
+                      </td>
+                      <td class="details">
+                          <div class="degree-info card">
+                              <div class="row">
+                                  <div class="col-lg-10 col-md-8">
+                                      {{ if .institution.url }}
+                                          <h5><a href="{{ .institution.url }}" title="{{ .institution.name }}" target="_blank" rel="noopener">{{ .institution.name }}</a></h5>
+                                      {{ else }}
+                                          <h5>{{ .institution.name }}</h5>
+                                      {{ end }}
+                                  </div>
+                                  <div class="timeframe col-lg-2 col-md-4">{{ .timeframe }}</div>
+                              </div>
+                              <h6>{{ .name }}</h6>
+                              {{ if .grade }}
+                                  <h6><span class="text-muted">{{ .grade.scale }}: </span><span>{{ .grade.achieved }}</span> {{ i18n "out_of"}} <span>{{ .grade.outOf }}</span></h6>
+                              {{ end }}
+                              {{ if .publications }}
+                                  <div class="publications"> <html><br><br>
+                                      <!DOCTYPE html>
+                                      <html>
+                                      <head>
+                                        <title>Popup Animation on Scroll for <h5>Requirements</h5></title>
+                                        <style>
+                                          .popup {
+                                            position: relative;
+                                            display: inline-block;
+                                            cursor: pointer;
+                                            opacity: 0;
+                                            transition: opacity 0.3s;
+                                            color: red;
+                                          }
+                                      
+                                          .popup .popuptext {
+                                            visibility: hidden;
+                                            width: 200px;
+                                            background-color: #555;
+                                            color: #fff;
+                                            text-align: center;
+                                            border-radius: 6px;
+                                            padding: 8px;
+                                            position: absolute;
+                                            z-index: 1;
+                                            bottom: 125%;
+                                            left: 50%;
+                                            transform: translateX(-50%) scale(0);
+                                            opacity: 0;
+                                            transition: opacity 0.3s, transform 0.3s;
+                                          }
+                                      
+                                          .popup.show {
+                                            opacity: 1;
+                                          }
+                                      
+                                          .popup.show .popuptext {
+                                            visibility: visible;
+                                            opacity: 1;
+                                            transform: translateX(-50%) scale(1);
+                                          }
+                                        </style>
+                                        <script>
+                                          window.addEventListener('scroll', function() {
+                                            var element = document.querySelector('.popup');
+                                            var position = element.getBoundingClientRect().top;
+                                            var screenHeight = window.innerHeight;
+                                      
+                                            if (position < screenHeight) {
+                                              element.classList.add('show');
+                                            } else {
+                                              element.classList.remove('show');
+                                            }
+                                          });
+                                        </script>
+                                      </head>
+                                      <body>
+                                        <h5 class="popup">
+                                            <a href="https://borisfx.com/" target="_blank">Boris Fx Continuum,</a>
+                                            <a href="https://www.maxon.net/en/red-giant" target="_blank">Red Giant Majic Bullet,</a>
+                                            <a href="https://borisfx.com/products/sapphire/" target="_blank">Sapphire Toolkit</a>
+                                            <span class="popuptext">Required Plugins</span>
+                                          </h5>
+                                          
+                                    
+                                          
+                                          <span class="popuptext">licensed</span>
+                                        </h5>                                
+                                    <h6 class="text-muted">{{ i18n "(publications)"}}</h6>
                                     <ul>
                                         {{ range .publications }}
                                             {{ if .url }}

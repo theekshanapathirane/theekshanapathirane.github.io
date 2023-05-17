@@ -31,21 +31,21 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/theekshanapathirane"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "https://stackoverflow.com/users/21670186/theekshana-pathirana"
-
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/thiwanaka-theekshana-wedeha-pathirana-467233266"
+
+- name: Tiktok
+  icon: "fab fa-tiktok"
+  url: "https://www.tiktok.com/@astute_ff"
 
 - name: Facebook
   icon: "fab fa-facebook"
   url: "https://web.facebook.com/astutefreefire?paipv=0&eav=AfbitEp3U4usJZSFg0HqqVgyvI8fmoeNG7RtHZmIEEhhsqI_LYeMVlp7H0ZrQ4mVWZU"
 
-- name: Tiktok
-  icon: "fab fa-tiktok"
-  url: "https://www.tiktok.com/@astute_ff"
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/21670186/theekshana-pathirana"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.

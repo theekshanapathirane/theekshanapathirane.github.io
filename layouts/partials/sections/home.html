@@ -84,6 +84,32 @@
       animation: fadein 1s ease-in-out;
     }
 
+    /* Add background styles */
+    #homePageBackgroundImageDivStyled {
+      width: 100%;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+    }
+
+    .fade-in-background {
+  animation: fadein 3s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
     @keyframes popup {
       0% {
         transform: scale(1);
@@ -107,32 +133,24 @@
         opacity: 1;
       }
     }
-
-    /* Add background styles */
-    #homePageBackgroundImageDivStyled {
-      width: 100%;
-      height: 100vh;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
   </style>
 
   <div
     id="homePageBackgroundImageDivStyled"
-    class="background container-fluid"
+    class="background container-fluid fade-in-background"
     style="background-image: url('{{ $src.RelPermalink }}');"
   ></div>
 
   <!-- Rest of the HTML code -->
   <div class="container content text-center">
-    <img src="{{ $authorImage.RelPermalink }}"
+    <img
+      src="{{ $authorImage.RelPermalink }}"
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
-    <h1 class="greeting fade-in-text"> {{ $author.greeting }} {{ $name }}</h1>
+    <h1 class="greeting fade-in-text">{{ $author.greeting }} {{ $name }}</h1>
     {{ if $author.subtitle }}
-      <h2 class="greeting-subtitle fade-in-text">{{ $author.subtitle }}</h2>
+    <h2 class="greeting-subtitle fade-in-text">{{ $author.subtitle }}</h2>
     {{ end }}
     <div class="typing-carousel">
       <span id="ityped" class="ityped popup-text"></span>
@@ -140,20 +158,50 @@
     </div>
     <ul id="typing-carousel-data">
       {{ if $author.summary }}
-        {{ range $author.summary }}
-          <li class="fade-in-text">{{ . }}</li>
-        {{ end}}
+      {{ range $author.summary }}
+      <li class="fade-in-text">{{ . }}</li>
+      {{ end}}
       {{ end }}
     </ul>
     {{ if $sections }}
-      {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
-        {{ $sectionID := replace (lower .section.name) " " "-"  }}
-        {{ if .section.id }}
-          {{ $sectionID = .section.id }}
-        {{ end }}
-        <a href="#{{ $sectionID }}" class="arrow-center" aria-label="{{ i18n "read" }} {{ i18n "more" }} - {{ $name }}"><i class="arrow bounce fa fa-chevron-down"></i></a>
-      {{ end }}
+    {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
+    {{ $sectionID := replace (lower .section.name) " " "-" }}
+    {{ if .section.id }}
+    {{ $sectionID = .section.id }}
+    {{ end }}
+    <a href="#{{ $sectionID }}" class="arrow-center" aria-label="{{ i18n "read" }} {{ i18n "more" }} - {{ $name }}"><i
+        class="arrow bounce fa fa-chevron-down"></i></a>
+    {{ end }}
     {{ end }}
   </div>
+
+  <script>
+    // Check if the background image is in the viewport and partially visible
+    function isElementPartiallyVisible(el) {
+      var rect = el.getBoundingClientRect();
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+  
+      var isPartiallyVisible =
+        (rect.top <= windowHeight && rect.bottom >= 0) &&
+        (rect.left <= windowWidth && rect.right >= 0);
+  
+      return isPartiallyVisible;
+    }
+  
+    // Apply the pull-in animation to the background image when it is partially visible
+    function pullInBackgroundOnScroll() {
+      var backgroundElement = document.getElementById("homePageBackgroundImageDivStyled");
+      if (isElementPartiallyVisible(backgroundElement)) {
+        backgroundElement.classList.add("fade-in-background");
+      } else {
+        backgroundElement.classList.remove("fade-in-background");
+      }
+    }
+  
+    window.addEventListener("scroll", pullInBackgroundOnScroll);
+  </script>
+  
 </div>
+
 

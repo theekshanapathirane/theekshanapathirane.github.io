@@ -84,6 +84,11 @@ html
 <head>
   <meta charset="UTF-8">
   <title>Example HTML5 Document</title>
+  <meta name="astuteGG" content="astute gg.">
+  <meta name="astutegg" content="astute GG.">
+   <meta name="astutegG" content="astutegg.">
+   <meta name="astuteGg" content="astutegg.">
+
 </head>
 <body>
   <p>Test</p>
